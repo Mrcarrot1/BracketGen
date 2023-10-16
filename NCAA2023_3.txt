@@ -1,0 +1,16 @@
+1: Alabama
+5: San Diego St.
+11: NC State
+2: Arizona
+8: Memphis
+4: Tennessee
+3: Kansas St.
+10: USC
+16: N. Kentucky
+4: Indiana
+3: Xavier
+7: Texas A&M
+1: Kansas
+5: Saint Mary's
+3: Gonzaga
+2: UCLA

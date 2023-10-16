@@ -1,0 +1,8 @@
+1: Alabama
+11: NC State
+8: Memphis
+3: Kansas St.
+16: N. Kentucky
+3: Xavier
+5: Saint Mary's
+2: UCLA

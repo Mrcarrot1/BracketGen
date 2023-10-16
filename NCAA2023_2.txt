@@ -1,0 +1,32 @@
+1: Alabama
+8: Maryland
+5: San Diego St.
+4: Virginia
+11: NC State
+14: UCSB
+7: Missouri
+2: Arizona
+1: Purdue
+8: Memphis
+5: Duke
+4: Tennessee
+6: Kentucky
+3: Kansas St.
+10: USC
+15: Vermont
+16: N. Kentucky
+8: Iowa
+5: Miami
+4: Indiana
+6: Iowa St.
+3: Xavier
+7: Texas A&M
+2: Texas
+1: Kansas
+9: Illinois
+5: Saint Mary's
+4: UConn
+11: ASU/NEV
+3: Gonzaga
+7: Northwestern
+2: UCLA
