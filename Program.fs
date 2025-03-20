@@ -41,22 +41,26 @@ let printTeams (teams: (int * string) array) =
         printfn "%d: %s" seed name
     printfn ""
 
+[<TailCall>]
+let rec teamsLoop (teams: (int * string) array) =
+    if teams.Length = 1 then
+        printTeams teams
+    else
+        printTeams teams
+        teamsLoop (predictRound teams)
+
 [<EntryPoint>]
 let main args =
     if args.Length <> 1 then
         printfn "Please supply only the file containing your bracket."
         1
     else
-        let mutable teams =
+        let teams =
             File.ReadAllLines(args[0])
             |> Array.filter (fun x -> not (x.StartsWith("//")))
             |> Array.map (fun x -> x.Split(':'))
             |> Array.map (Array.map (fun x -> x.Trim()))
             |> Array.map (fun x -> (x[0] |> int, x[1]))
 
-        printTeams teams
-
-        while teams.Length % 2 = 0 do
-            teams <- predictRound teams
-            printTeams teams
+        teamsLoop teams
         0
